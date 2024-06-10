@@ -8,6 +8,7 @@ const runFiveTimes = (fn) => {
     }
 };
 
+
 runFiveTimes(greeting)
 
 //How can I run this X times?
