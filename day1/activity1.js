@@ -1,19 +1,13 @@
-// const greeting = () => {
-//     console.log("Hello Codenation")
-// }
-// greeting()
+const greeting = () => {
+    console.log("Hello Codenation")
+}
 
-
-
-const greeting = (greet) => {
-  console.log("Hello Codenation");
+const runFiveTimes = (fn) => {
+    for (let i = 0; i < 5; i++) {
+        fn();
+    }
 };
-// const  = () => {
-//     for (let i = 0; i < greeting.length; i++);
-// }
-// greeting();
 
+runFiveTimes(greeting)
 
-
-console.log(greetingCodenation)
-
+//How can I run this X times?
